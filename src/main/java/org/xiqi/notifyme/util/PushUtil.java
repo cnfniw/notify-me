@@ -14,7 +14,7 @@ import org.springframework.web.reactive.function.client.WebClient;
 @Component
 @Slf4j
 public class PushUtil {
-    private final WebClient webClient = WebClient.create("https://api.anpush.com");
+    private final WebClient webClient = WebClient.create("https://pushme.mzx06.top:3200");
 
     public void sendFormData(String url, MultiValueMap<String, String> formData) {
         webClient.post()
@@ -34,7 +34,7 @@ public class PushUtil {
         formData.add("title", pushDo.getTitle());
         formData.add("content", pushDo.getContent());
         formData.add("channel", setting.getChannel());
-        String url = "/push/" + setting.getApiKey();
+        String url = "/client/push_halo/" + setting.getApiKey();
         sendFormData(url, formData);
     }
 }
