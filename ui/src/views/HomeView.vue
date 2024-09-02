@@ -155,10 +155,12 @@ export default {
         <div class="!p-0 card-body">
           <div style="padding: 40px;">
             <div class="tip">
-              🎈 通过PushMe的接口实现的通知推送, 免费套餐已足够博客使用。 <a href="https://pushme.mzx06.top:3200" target="_blank"
+              🎈 通过AnPush的接口实现的通知推送。 <a href="https://pushme.mzx06.top:3200" target="_blank"
                                                      style="text-decoration: underline;color: #000000;"> 获取密钥 > </a>
               <br>
-              <div>根据官网描述可以推送至12个应用，我测试了微信、企业微信、微信测试号、飞书、钉钉都没有问题</div>
+              <div>PushMe，一个简单轻量的Android消息通知客户端！支持插件，支持自部署服务。
+                <a href="https://push.i-i.me/" target="_blank" style="text-decoration: underline;color: #000000;"> 官网 > </a>
+              </div>
             </div>
             <section class="main">
               <div
