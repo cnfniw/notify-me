@@ -155,7 +155,7 @@ export default {
         <div class="!p-0 card-body">
           <div style="padding: 40px;">
             <div class="tip">
-              🎈 通过AnPush的接口实现的通知推送。 <a href="https://pushme.mzx06.top:3200" target="_blank"
+              🎈 通过PushMe的接口实现的通知推送。 <a href="https://pushme.mzx06.top:3200" target="_blank"
                                                      style="text-decoration: underline;color: #000000;"> 获取密钥 > </a>
               <br>
               <div>PushMe，一个简单轻量的Android消息通知客户端！支持插件，支持自部署服务。
