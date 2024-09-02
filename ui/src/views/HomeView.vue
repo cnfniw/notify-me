@@ -216,7 +216,7 @@ export default {
                           d="M12 2c5.52 0 10 4.48 10 10s-4.48 10-10 10S2 17.52 2 12S6.48 2 12 2Zm0 18c4.42 0 8-3.58 8-8s-3.58-8-8-8s-8 3.58-8 8s3.58 8 8 8Zm1-8v4h-2v-4H8l4-4l4 4h-3Z">
                     </path>
                   </svg>
-                  <span class="icon-title">通道ID(随便输入4位数字)</span>
+                  <span class="icon-title">通道ID (随便输入4位数字)</span>
                 </div>
                 <div
                   class="formkit-inner inline-flex items-center w-full relative box-border border border-gray-300 formkit-invalid:border-red-500 h-9 rounded-base overflow-hidden focus-within:border-primary focus-within:shadow-sm sm:max-w-lg transition-all">
