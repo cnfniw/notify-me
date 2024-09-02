@@ -155,7 +155,7 @@ export default {
         <div class="!p-0 card-body">
           <div style="padding: 40px;">
             <div class="tip">
-              🎈 通过AnPush的接口实现的通知推送, 免费套餐已足够博客使用。 <a href="https://anpush.com/?halo" target="_blank"
+              🎈 通过PushMe的接口实现的通知推送, 免费套餐已足够博客使用。 <a href="https://pushme.mzx06.top:3200" target="_blank"
                                                      style="text-decoration: underline;color: #000000;"> 获取密钥 > </a>
               <br>
               <div>根据官网描述可以推送至12个应用，我测试了微信、企业微信、微信测试号、飞书、钉钉都没有问题</div>
@@ -203,7 +203,7 @@ export default {
                   class="formkit-inner inline-flex items-center w-full relative box-border border border-gray-300 formkit-invalid:border-red-500 h-9 rounded-base overflow-hidden focus-within:border-primary focus-within:shadow-sm sm:max-w-lg transition-all">
                   <input
                     class="nm-input formkit-input bg-white resize-none w-full text-black block transition-all h-full px-3 text-sm"
-                    type="password" v-model="data.apiKey" placeholder="AnPush后台获取"/>
+                    type="text" v-model="data.apiKey" placeholder="PushMe后台获取"/>
                 </div>
               </div>
               <div
