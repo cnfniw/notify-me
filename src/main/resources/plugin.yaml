@@ -9,7 +9,7 @@ spec:
     name: 稀奇
     website: https://xiqi.org
   logo: /notify.png
-  homepage: https://github.com/monyuan/notify-me
+  homepage: https://github.com/cnfniw/notify-me
   displayName: "通知我"
   description: "当有评论时、新闻章等事件时推送通知到微信、QQ、企业微信、飞书、钉钉、微信测试号、Slack等12个应用，使用了PushMe服务。"
   license:
