@@ -14,4 +14,4 @@ spec:
   description: "当有评论时、新闻章等事件时推送通知到微信、QQ、企业微信、飞书、钉钉、微信测试号、Slack等12个应用，使用了PushMe服务。"
   license:
     - name: "GPL-3.0"
-      url: "https://raw.githubusercontent.com/monyuan/notify-me/main/LICENSE"
+      url: "https://raw.githubusercontent.com/cnfniw/notify-me/main/LICENSE"
