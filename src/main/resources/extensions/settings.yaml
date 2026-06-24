@@ -1,0 +1,63 @@
+apiVersion: v1alpha1
+kind: Setting
+metadata:
+  name: notifyme-settings
+spec:
+  forms:
+    - group: default
+      label: 基本设置
+      formSchema:
+        - $formkit: text
+          name: publishUrl
+          label: 推送接口地址
+          placeholder: "http://your-server:port/"
+          help: "完整 URL，支持变量 {apiKey} {title} {content} {type} {extValue}，留空则不推送。示例：http://your-server:port/?push_key={apiKey}&title={title}&content={content}&type={type}"
+          value: ""
+        - $formkit: text
+          name: apiKey
+          label: API密钥
+          placeholder: PushMe后台获取
+          help: 在 PushMe 管理页面注册后生成的密钥，多个用逗号分隔（如 key1,key2）
+          value: ""
+        - $formkit: text
+          name: extValue
+          label: 扩展值（可选）
+          placeholder: 留空则不用
+          help: "可用于自定义推送参数，在推送地址中用 {extValue} 引用。例如：&channel={extValue}"
+          value: ""
+        - $formkit: text
+          name: siteUrl
+          label: 站点地址
+          placeholder: "https://blog.mzx06.top"
+          help: "博客访问地址，尾部不要带斜杠，如：https://example.com"
+          value: ""
+        - $formkit: checkbox
+          name: wechatStatus
+          label: 使用微信公众号通道
+          value: false
+          help: "如果推送通道是微信公众号，请勾选（微信公众号模板消息标题长度有限制）"
+        - $formkit: checkbox
+          name: selfNotify
+          label: 通知自己的操作
+          value: false
+          help: "勾选后，管理员/作者自己的评论和发布操作也会推送通知"
+        - $formkit: checkbox
+          name: commentStatus
+          label: 新评论通知
+          value: true
+        - $formkit: checkbox
+          name: commentAuditsStatus
+          label: 评论审核通知
+          value: false
+        - $formkit: checkbox
+          name: postStatus
+          label: 文章发布通知
+          value: false
+        - $formkit: checkbox
+          name: postAuditsStatus
+          label: 投稿审核通知
+          value: false
+        - $formkit: checkbox
+          name: postDelStatus
+          label: 文章删除通知
+          value: false

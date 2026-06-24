@@ -1,0 +1,20 @@
+apiVersion: plugin.halo.run/v1alpha1
+kind: Plugin
+metadata:
+  name: notifyme
+spec:
+  version: "1.3.0"
+  enabled: true
+  requires: ">=2.25.0"
+  author:
+    name: cnfniw
+    website: https://github.com/cnfniw
+  logo: /notify.png
+  homepage: https://github.com/cnfniw/notify-me
+  displayName: "通知我"
+  settingName: notifyme-settings
+  configMapName: notifyme-config
+  description: "通过PushMe接口实现的通知推送插件。"
+  license:
+    - name: "GPL-3.0"
+      url: "https://raw.githubusercontent.com/cnfniw/notify-me/main/LICENSE"
